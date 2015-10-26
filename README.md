@@ -1,0 +1,3 @@
+# DO NOT INSTALL THIS PACKAGE
+
+You have been warned...
